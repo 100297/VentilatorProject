@@ -64,14 +64,14 @@ public class Test {
 		StepperInterface sc = new StepperController();
 		//pc.moveToTop(sc);
 		while (true) {
-			sc.forward(10, 15);
+			sc.forward(100, 15);
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 
-			sc.backward(10, 30);
+			sc.backward(100, 30);
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
